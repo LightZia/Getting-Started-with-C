@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int age = 10;
-    float pi = 3.14;
-    char grade = 'A';
+    int age;
+    float height;
 
-    printf("Age : %d\n", age);
-    printf("Pi : %f\n", pi);
-    printf("Grade : %c\n", grade);
+    printf("Enter your age : ");
+    scanf("%d", &age);
 
+    printf("Enter your height : ");
+    scanf("%f", &height);
+
+    printf("Your age is %d, and your height is %.3f.", age, height);
     return 0;
 }
